@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsoLang", "EsoLang\EsoLang.csproj", "{A16F6F27-85B9-4DDC-AD39-5E3293412364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsoLangTests", "EsoLangTests\EsoLangTests.csproj", "{B1833F2D-7CF2-4369-8E45-A3498809545D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A16F6F27-85B9-4DDC-AD39-5E3293412364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A16F6F27-85B9-4DDC-AD39-5E3293412364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A16F6F27-85B9-4DDC-AD39-5E3293412364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A16F6F27-85B9-4DDC-AD39-5E3293412364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1833F2D-7CF2-4369-8E45-A3498809545D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1833F2D-7CF2-4369-8E45-A3498809545D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1833F2D-7CF2-4369-8E45-A3498809545D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1833F2D-7CF2-4369-8E45-A3498809545D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
