@@ -88,13 +88,13 @@ namespace EsoLang.Tests
             Assert.AreEqual(test.ToString(), test2.ToString());
             */
             // Try the full starting environment (assume noException = success)
-            test = new SExpWord(testFolder + @"Esolang_StartEnv.docx");
-            //test2 = new SExpOpenXML(testFolder + @"Esolang_StartEnv.docx");
+            //test = new SExpWord(testFolder + @"Esolang_StartEnv.docx");
+            test2 = new SExpOpenXML(testFolder + @"Esolang_StartEnv.docx");
             //Assert.AreEqual(test.ToString(), test2.ToString());
 
             // Try the full PISpigot program
-            test = new SExpWord(testFolder + @"Esolang_PiSpigot.docx");
-            //test2 = new SExpOpenXML(testFolder + @"Esolang_PiSpigot.docx");
+            //test = new SExpWord(testFolder + @"Esolang_PiSpigot.docx");
+            test2 = new SExpOpenXML(testFolder + @"Esolang_PiSpigot.docx");
             //Assert.AreEqual(test.ToString(), test2.ToString());
         }
 

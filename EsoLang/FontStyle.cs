@@ -1,7 +1,4 @@
-﻿using Microsoft.Office.Interop.Word;
-using System;
-
-namespace EsoLang
+﻿namespace EsoLang
 {
     public class FontStyle
     {
